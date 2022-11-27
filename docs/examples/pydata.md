@@ -30,6 +30,7 @@ rng = np.random.default_rng()
 data = rng.standard_normal((100, 26))
 df = pd.DataFrame(data, columns=list(string.ascii_lowercase))
 df
+df+2
 ```
 
 ## Matplotlib
